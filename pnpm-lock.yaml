@@ -236,7 +236,7 @@ importers:
         version: 9.6.2(loader-utils@1.4.2)(typescript@6.0.3)(webpack@5.111.0)
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@26.2.0)(typescript@6.0.3)
+        version: 10.9.2(@types/node@26.4.1)(typescript@6.0.3)
       tsconfig-paths-webpack-plugin:
         specifier: ^4.2.0
         version: 4.2.0
@@ -723,8 +723,13 @@ packages:
   '@types/node@22.20.3':
     resolution: {integrity: sha512-DZmzkmwHzXrLPAXPyKNDzlIwMMUZCVacoD25ywdy5YTKGbOx/2ld+Q38Im2zJ0vBuZP5Prd3VZutKZyXwkOS8A==}
 
+<<<<<<< HEAD
   '@types/node@26.2.0':
     resolution: {integrity: sha512-5IviulTZeRNp2vAJ514cc/HUlY5nZ9fCbq9DMyC52BrhFZACo3nI0R7qBxhQmo/d27NFe96ur/b7Wwxklda+kg==}
+=======
+  '@types/node@26.4.1':
+    resolution: {integrity: sha512-k97ENvZWtvA6yqz5/FS6a7duDgOPEeOQOc2iKS/nY6mX6qJUKtLnWzQS+Xj6tXweyj6ZcTAK2Qecetnvi9nCLA==}
+>>>>>>> d77edb7121650f80c9a1a62357d549925d1336ad
 
   '@types/q@1.5.8':
     resolution: {integrity: sha512-hroOstUScF6zhIi+5+x0dzqrHA1EJi+Irri6b1fxolMTqqHIV/Cg77EtnQcZqZCu8hR3mX2BzIxN4/GzI68Kfw==}
@@ -4708,7 +4713,11 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
+<<<<<<< HEAD
   '@types/node@26.2.0':
+=======
+  '@types/node@26.4.1':
+>>>>>>> d77edb7121650f80c9a1a62357d549925d1336ad
     dependencies:
       undici-types: 8.3.0
 
@@ -8069,14 +8078,14 @@ snapshots:
     optionalDependencies:
       loader-utils: 1.4.2
 
-  ts-node@10.9.2(@types/node@26.2.0)(typescript@6.0.3):
+  ts-node@10.9.2(@types/node@26.4.1)(typescript@6.0.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.13
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 26.2.0
+      '@types/node': 26.4.1
       acorn: 8.18.0
       acorn-walk: 8.3.5
       arg: 4.1.3
